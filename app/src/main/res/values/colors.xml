@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="primaryColor">#651fff</color>
+    <color name="primaryLightColor">#a255ff</color>
+    <color name="primaryDarkColor">#0100ca</color>
+    <color name="secondaryColor">#aa00ff</color>
+    <color name="secondaryLightColor">#e254ff</color>
+    <color name="secondaryDarkColor">#7200ca</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#ffffff</color>
+    <color name="heartRed">#f44336</color>
+    <color name="timeOrange">#ff8f00</color>
+    <color name="leafGreen">#00c853</color>
+    <color name="pitchBlack">#000000</color>
+    <color name="borderGrey">#dfdfdf</color>
+    <color name="snackBarBlack">#202020</color>
+    <color name="starYellow">#eefe2a</color>
+</resources>

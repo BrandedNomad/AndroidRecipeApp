@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_nav_item_recipes"
+        android:enabled="true"
+        android:icon="@drawable/icon_recipe_unselected"
+        android:title="recipes"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="12dp"/>
+    <item
+        android:id="@+id/bottom_nav_item_favourites"
+        android:enabled="true"
+        android:icon="@drawable/icon_star_unselected"
+        android:title="favourites"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="12dp"/>
+    <item
+        android:id="@+id/bottom_nav_item_joke"
+        android:enabled="true"
+        android:icon="@drawable/icon_smile_unselected"
+        android:title="Joke"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="12dp"/>
+
+</menu>
