@@ -8,6 +8,7 @@ import com.example.foody.fragments.FavouritesFragment
 import com.example.foody.fragments.JokeFragment
 import com.example.foody.fragments.RecipesFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.todkars.shimmer.ShimmerRecyclerView
 
 
 class MainActivity : AppCompatActivity() {
@@ -21,6 +22,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
 
         //on initial app load, display the recipe screen
         replaceFragment(recipesFragment)

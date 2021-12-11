@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.foody.R
+import com.todkars.shimmer.ShimmerRecyclerView
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -28,6 +29,8 @@ class RecipesFragment : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
+
+
     }
 
     override fun onCreateView(
@@ -35,7 +38,10 @@ class RecipesFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_recipes, container, false)
+        val recipeView = inflater.inflate(R.layout.fragment_recipes, container,false)
+        recipeView.findViewById<ShimmerRecyclerView>(R.id.shimmer_recycler_view).showShimmer()
+
+        return recipeView
     }
 
     companion object {
